@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL82Dialect</property>
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.username">postgres</property>
+        <property name="hibernate.connection.password">123</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/hibernate</property>
+        <property name="hbm2ddl.auto">update</property>
+        <property name="show_sql">true</property>
+
+        <!-- MAPPINGS -->
+        <mapping class="Hibernate.exercises.hibernate_select_in_join.StudentSelect"/>
+        <mapping class="Hibernate.exercises.hibernate_select_in_join.Address"/>
+        <mapping class="Hibernate.exercises.hibernate_multy_join_example.StudentCourse"/>
+        <mapping class="Hibernate.exercises.hibernate_multy_join_example.Course"/>
+        <mapping class="Hibernate.exercises.hibernate_multy_join_example.StudentMultiJoin"/>
+        <mapping class="Hibernate.exercises.nativequery.StudentNative"/>
+        <mapping class="Hibernate.exercises.pagination.StudentPagination"/>
+        <mapping class="Hibernate.exercises.subquery.DomesticCat"/>
+        <mapping class="Hibernate.exercises.subquery.Cat"/>
+        <mapping class="Hibernate.exercises.namedquery.StudentNamedQuery"/>
+        <mapping class="Hibernate.exercises.caching.StudentCaching"/>
+        <mapping class="Hibernate.exercises.cascadeType.Customer"/>
+        <mapping class="Hibernate.exercises.cascadeType.Orders"/>
+
+
+    </session-factory>
+
+</hibernate-configuration>
