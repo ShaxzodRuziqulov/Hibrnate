@@ -23,6 +23,10 @@
         <mapping class="Hibernate.exercises.caching.StudentCaching"/>
         <mapping class="Hibernate.exercises.cascadeType.Customer"/>
         <mapping class="Hibernate.exercises.cascadeType.Orders"/>
+        <mapping class="Hibernate.exercises.NaturalId.StudentNaturalIdE"/>
+        <mapping class="Hibernate.exercises.NaturalId.SubjectNaturalIdE"/>
+        <mapping class="Hibernate.exercises.orphanRemoval.Comment"/>
+        <mapping class="Hibernate.exercises.orphanRemoval.Post"/>
 
 
     </session-factory>

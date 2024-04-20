@@ -1,4 +1,4 @@
-package Hibernate.exercises.hobernateJoin;
+package Hibernate.exercises.hibernateJoin;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

@@ -10,8 +10,8 @@
         <property name="show_sql">true</property>
 
         <!-- MAPPINGS -->
-        <mapping class="Hibernate.exercises.hobernateJoin.DepartmentEntity"/>
-        <mapping class="Hibernate.exercises.hobernateJoin.EmployeeEntity"/>
+        <mapping class="Hibernate.exercises.hibernateJoin.DepartmentEntity"/>
+        <mapping class="Hibernate.exercises.hibernateJoin.EmployeeEntity"/>
 
 
     </session-factory>
